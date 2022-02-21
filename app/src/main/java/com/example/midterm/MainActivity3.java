@@ -13,6 +13,7 @@ public class MainActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+        setTitle("You are in Activity3");
 
         Button go1 = findViewById(R.id.button5);
         Button go2 = findViewById(R.id.button6);
