@@ -50,18 +50,10 @@ public class MainActivity3 extends ListActivity {
                 break;
 
             case 2:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://amazon.com")));
-                break;
-
-            case 3:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://apple.com")));
-                break;
-
-            case 4:
                 startActivity(new Intent(MainActivity3.this, MainActivity.class));
                 break;
 
-            case 5:
+            case 3:
                 startActivity(new Intent(MainActivity3.this, MainActivity2.class));
                 break;
         }
