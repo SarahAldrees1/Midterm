@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
         pic = (ImageView) findViewById(R.id.imageView);
 
-        Button go2 = findViewById(R.id.button3);
-        Button go3 = findViewById(R.id.button4);
+        Button go2 = findViewById(R.id.button1);
+        Button go3 = findViewById(R.id.button2);
 
 
         go2.setOnClickListener(new View.OnClickListener() {
