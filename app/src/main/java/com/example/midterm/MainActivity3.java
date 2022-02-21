@@ -27,8 +27,6 @@ public class MainActivity3 extends ListActivity {
         String[] attraction = {
                 "First Item",
                 "Second Item",
-                "Third Item",
-                "Fourth Item",
                 "GO TO ACT 1",
                 "GO TO ACT 2"};
 
